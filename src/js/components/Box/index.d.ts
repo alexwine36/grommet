@@ -13,13 +13,13 @@ export interface BoxProps {
   border?: boolean | "top" | "left" | "bottom" | "right" | "horizontal" | "vertical" | "all" | {color: string | {dark: string,light: string},side: "top" | "left" | "bottom" | "right" | "horizontal" | "vertical" | "all",size: "xsmall" | "small" | "medium" | "large" | "xlarge" | string};
   direction?: "row" | "column" | "row-responsive";
   elevation?: "none" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string;
-  flex?: "grow" | "shrink" | "true" | "false";
-  fill?: "horizontal" | "vertical" | "true" | "false";
+  flex?: "grow" | "shrink" | true | false;
+  fill?: "horizontal" | "vertical" | true | false;
   gap?: "xsmall" | "small" | "medium" | "large" | "xlarge" | string;
   height?: "xsmall" | "small" | "medium" | "large" | "xlarge" | string;
   justify?: "start" | "center" | "between" | "end";
   overflow?: "auto" | "hidden" | "scroll" | "visible" | {horizontal: "auto" | "hidden" | "scroll" | "visible",vertical: "auto" | "hidden" | "scroll" | "visible"} | string;
-  pad?: "none" | "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | {bottom: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,horizontal: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,left: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,right: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,top: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,vertical: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string} | string;
+  pad?: "none" | "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | {bottom?: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,horizontal?: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,left?: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,right?: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,top?: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string,vertical?: "xxsmall" | "xsmall" | "small" | "medium" | "large" | "xlarge" | string} | string;
   responsive?: boolean;
   round?: boolean | "xsmall" | "small" | "medium" | "large" | "xlarge" | "full" | string | {corner: "top" | "left" | "bottom" | "right" | "top-left" | "top-right" | "bottom-left" | "bottom-right",size: "xsmall" | "small" | "medium" | "large" | "xlarge" | string};
   tag?: string;

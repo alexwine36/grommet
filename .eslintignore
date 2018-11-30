@@ -1,4 +1,5 @@
 node_modules/**
 dist/**
 coverage/**
-src/js/components/**/index.d.ts
+src/js/**/**/index.d.ts
+**/*.ts
